@@ -1,0 +1,85 @@
+textarea {
+  resize: none;
+}
+
+form {
+  padding-left: 15px;
+  padding-top: 20px;
+}
+
+input,
+textarea,
+select {
+  outline: none;
+}
+
+select {
+  width: 165px;
+}
+
+.form {
+  margin: 0 auto;
+}
+
+.form__left-text-ness::after {
+  content: "*";
+  color: red;
+}
+
+.header, .footer{
+  width: 1000px;
+  height: 50px;
+  margin: 0 auto;
+  background-color: rgba(85, 209, 85, 0.568);
+  border: 2px solid rgb(4, 82, 4);
+}
+
+.header__text {
+  color: rgb(10, 73, 10);
+  padding-top: 20px;
+  padding-left: 15px;
+}
+
+.inquirer {
+  background-color: rgba(144, 236, 144, 0.096);
+  border: 2px solid rgb(4, 82, 4);
+  width: 986px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.form__left, .form__right {
+  width: 300px;
+}
+
+.form__left-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.Home_Phone,
+.Fax_Number {
+  width: 80px;
+}
+
+.form__right{
+  margin-right: 10px;
+}
+
+.form__right-item input{
+  margin-bottom: 15px;
+}
+
+.footer{
+  display: flex;
+  justify-content: center;
+}
+
+.footer__bnt{
+  width: 100px;
+  height: 30px;
+  outline: none;
+  margin-right: 30px;
+}

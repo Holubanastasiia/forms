@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body >
+    <div class="header">
+        <p class="header__text">Contact Manager</p>
+    </div>
+    <form class="inquirer" action="#" method="get">
+        <div class="form__left">
+            <div class="form__left-item">
+                <label class="form__left-text-ness" for="lirst_name">
+                    First name
+                </label>
+                <input type="text"> 
+            </div>
+            <div class="form__left-item">
+                 <label class="form__left-text-ness" for="last_name">
+                    Last name
+                </label>
+                <input type="text"> 
+            </div>
+            <div class="form__left-item">
+                <label class="form__left-text" for="Address">
+                    Address
+                </label>
+                <textarea name="textarea" cols="20" rows="4"></textarea>
+            </div>
+            <div class="form__left-item">
+                 <label class="form__left-text" for="city">
+                    City
+                </label>
+                <input type="text"> 
+            </div>
+            <div class="form__left-item">
+                <label class="form__left-text" for="Select">
+                    Country
+                </label>
+                <select name="select">
+                    <option  value="Ukraine">
+                        Ukraine
+                    </option>
+                    <option value="USA">
+                        USA
+                    </option>
+                    <option selected value="China">
+                        China
+                    </option>
+                </select> 
+                </div>
+                <div class="form__left-item">
+                    <label class="form__left-text" for="tel">
+                        Home Phone
+                    </label>
+                    <input class="Home_Phone" type="tel" > 
+                </div>
+                <div class="form__left-item">
+                    <label class="form__left-text-ness" for="tel">
+                        Work Phone
+                    </label>
+                    <input class="tel" type="tel"> 
+                </div>
+                <div class="form__left-item">
+                    <label class="form__left-text" for="number">
+                        Fax Number
+                    </label>
+                    <input class="Fax_Number" type="text"> 
+                </div>
+                <div class="form__left-item">
+                    <label class="form__left-text-ness" for="email">
+                        Email Address
+                    </label>
+                    <input class="Email" type="email"> 
+                </div>
+            </div>
+            <div class="form__right">
+                <div class="form__right-item">
+                    <span>
+                        What is the best time to contact you?
+                    </span>
+                    <div>
+                        <input  type="radio" name="time" value="mornimg" /> 
+                        mornimg <br>
+                        <input  checked type="radio" name="time" value="afternoon" />
+                         afternoon 
+                    </div>
+                </div>
+            </div>
+        </form>
+        <div class="footer">
+            <button class="footer__bnt">
+                Send
+            </button>
+             <button class="footer__bnt">
+                Reset
+            </button>
+        </div>
+</body>
+</html>
